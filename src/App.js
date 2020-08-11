@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Main from './Components/PrankPage';
-import Home from './Components/HomePage';
-import Contact from './Components/ContactUs';
-import About from './Components/AboutUs';
+import Main from './Components/PrankPage/PrankPage';
+import Home from './Components/HomePage/HomePage';
+import Contact from './Components/ContactUs/ContactUs';
+import About from './Components/AboutUs/AboutUs';
 
 class App extends Component {
   render(){
