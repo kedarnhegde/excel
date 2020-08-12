@@ -59,7 +59,7 @@ class Contact extends Component {
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Mr. R Madhavan</td>
+                            <td>Mr. R Madhavan - M.D</td>
                             <td><a className = 'linkto' href="tel:[+91 9845033116]">+91-9845033116</a></td>
                             <td><a className = 'linkto' href="mailto:nobreak@excelgenerators.com">nobreak@excelgenerators.com</a></td>
                         </tr>
