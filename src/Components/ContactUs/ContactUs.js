@@ -3,11 +3,58 @@ import {Form, FormGroup, Input, Button, Col, Table} from 'reactstrap';
 import './ContactUs.css';
 
 class Contact extends Component {
+
+    state = {
+        name: "",
+        email: "",
+        number: "",
+        desc: ""
+    }
+
+    handleChange(event, element) {
+        var value = event.currentTarget.value
+        if(element === "name") {
+            this.setState({
+                name: value
+            })
+        }
+        else if(element === "email") {
+            this.setState({
+                email: value
+            })
+        }
+        else if(element === "number") {
+            this.setState({
+                number: value
+            })
+        }
+        else {
+            this.setState({
+                desc: value
+            })
+        }
+    }
+    handleClick(event) {
+        if(this.state.name === '' || this.state.email === '' || this.state.number === '' ) {
+            alert('Please Enter all fields');
+        }
+        else{
+            var data = {
+                name: this.state.name,
+                email: this.state.email,
+                number: this.state.number,
+                desc: this.state.desc
+            }
+            console.log('Success');
+            alert(JSON.stringify(data));
+        }
+    }
+
     render(){
       return (
-        <div className='container'>
+        <div className='container contact-mainbox'>
             <div id='contact-heading'>
-                <h1>Get in touch with us!</h1>
+                <h1>Give us a Shout!</h1>
             </div>
             <div>
                 <div className='offset-4'>
@@ -16,30 +63,30 @@ class Contact extends Component {
             </div>
             <div className='row'>
                 <div className='offset-md-3 col-md-6'>
-                    <Form>
+                <Form>
                         <FormGroup row>
                             <Col>
-                                <Input type="name" name="name" placeholder="Name:"  className="form-fields"/>
+                                <Input type="name" name="name" placeholder="Name:"  className="form-fields" onChange={(event) => this.handleChange(event, "name")}/>
                             </Col>
                         </FormGroup>
                         <FormGroup row>
                             <Col>
-                                <Input type="email" name="email" placeholder="E-mail:"  className="form-fields"/>
+                                <Input type="email" name="email" placeholder="E-mail:"  className="form-fields" onChange={(event) => this.handleChange(event, "email")}/>
                             </Col>
                         </FormGroup>
                         <FormGroup row>
                             <Col>
-                                <Input type="number" name="number" placeholder="Contact Number:"  className="form-fields"/>
+                                <Input type="number" name="number" placeholder="Contact Number:"  className="form-fields" onChange={(event) => this.handleChange(event, "number")}/>
                             </Col>
                         </FormGroup>
                         <FormGroup row>
                             <Col>
-                                <Input type="textarea" name="desc" placeholder="Description:"  className="form-fields" rows='5'/>
+                                <Input type="textarea" name="desc" placeholder="Description:"  className="form-fields" rows='5' onChange={(event) => this.handleChange(event, "desc")}/>
                             </Col>
                         </FormGroup>
                         <FormGroup row className=''>
                             <Col>
-                                <Button color='outline-danger' className='submit-button btn btn-block' size='lg'>Submit</Button>
+                                <Button type='submit' color='outline-danger' className='submit-button btn btn-block' size='lg' onClick={this.handleClick.bind(this) }>Submit</Button>
                             </Col>
                         </FormGroup>
                     </Form> 
@@ -59,7 +106,7 @@ class Contact extends Component {
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>Mr. R Madhavan</td>
+                            <td>Mr. R Madhavan - M.D</td>
                             <td><a className = 'linkto' href="tel:[+91 9845033116]">+91-9845033116</a></td>
                             <td><a className = 'linkto' href="mailto:nobreak@excelgenerators.com">nobreak@excelgenerators.com</a></td>
                         </tr>

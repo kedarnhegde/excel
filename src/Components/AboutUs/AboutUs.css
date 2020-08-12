@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.about-mainbox {
+    font-family: 'Montserrat', sans-serif;
+}
+.head1 {
+ font-weight: bold;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.head2 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-content{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card-head {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+.fact-dd {
+    font-weight: 500;
+    font-size: 18px;
+}
+.fact-dt {
+    font-weight: 700;
+    font-size: 18px;
+}
+.fact-card {
+    margin-top: 80px;
+}
+.arrow-down {
+    float: right;
+}
+.accord-head {
+    font-weight: 700;
+    font-size: 20px;
+}
+.accord-body {
+    font-weight: 500;
+    font-size: 18px;
+}
+.accord {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
