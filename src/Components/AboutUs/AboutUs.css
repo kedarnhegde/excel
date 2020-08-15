@@ -52,3 +52,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.fact-card:hover {
+    transform: translateY(-20px);
+    box-shadow: 0px 3px 15px #00000029;
+}
