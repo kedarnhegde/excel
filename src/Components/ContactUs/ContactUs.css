@@ -63,7 +63,7 @@
     color: white;
 }
 .linkto:hover {
-    color: darkgrey;
+    color: #801408;
 }
 .contact-table td:hover{
     transform: translateY(-5px);
