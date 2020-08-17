@@ -5,6 +5,7 @@ import Main from './Components/PrankPage/PrankPage';
 import Home from './Components/HomePage/HomePage';
 import Contact from './Components/ContactUs/ContactUs';
 import About from './Components/AboutUs/AboutUs';
+import Footer from './Components/Footer/Footer';
 
 class App extends Component {
   render(){
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path = '/contact' component={Contact} />
             <Route path = '/about' component={About} />
           </Switch>
+          <Footer />
         </BrowserRouter>
       </div>
     );

@@ -22,7 +22,10 @@
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: floralwhite;
+    color: lightgrey;
+}
+.about-content:hover{
+    color: white;
 }
 .card-head {
     color: white;
