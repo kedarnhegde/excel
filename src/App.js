@@ -6,6 +6,7 @@ import Home from './Components/HomePage/HomePage';
 import Contact from './Components/ContactUs/ContactUs';
 import About from './Components/AboutUs/AboutUs';
 import Footer from './Components/Footer/Footer';
+import Installments from './Components/Installments/Installments';
 
 class App extends Component {
   render(){
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path = '/home' component={Home} />
             <Route path = '/contact' component={Contact} />
             <Route path = '/about' component={About} />
+            <Route path = '/installments' component={Installments} />
           </Switch>
           <Footer />
         </BrowserRouter>

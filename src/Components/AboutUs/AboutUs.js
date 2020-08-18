@@ -32,14 +32,16 @@ class About extends Component {
                     </Card.Header>
                     <Card.Body>
                       <dl className="row">
-                        <dt className="col-6 fact-dt">Started</dt>
-                        <dd className="col-6 fact-dd">12th Aug. 2020</dd>
+                        <dt className="col-6 fact-dt">Established</dt>
+                        <dd className="col-6 fact-dd">1996</dd>
                         <dt className="col-6 fact-dt">M.D</dt>
                         <dd className="col-6 fact-dd">Mr. R Madhavan</dd>
                         <dt className="col-6 fact-dt">Installments</dt>
                         <dd className="col-6 fact-dd">123,456,789</dd>
                         <dt className="col-6 fact-dt">Employees</dt>
                         <dd className="col-6 fact-dd">40</dd>
+                        <dt className="col-6 fact-dt">Headquarters</dt>
+                        <dd className="col-6 fact-dd">Bengaluru</dd>
                       </dl>
                     </Card.Body>
                   </Card>

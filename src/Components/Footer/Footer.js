@@ -17,6 +17,7 @@ class Footer extends Component {
                             </ul>
                         </div>
                         <div className='col-12 col-md-4'>
+                            <p className='connect'>Connect With Us</p>
                             <a className='fa fa-globe fa-2x fa-links' href='https://www.excelgenerators.com' target='blank'></a>
                             <a className='fa fa-linkedin-square fa-2x fa-links' href='https://www.linkedin.com/company/excel-generators-private-limited/about/' target='blank'></a>
                             <a className='fa fa-phone fa-2x fa-links' href='tel:[+91 80 23448070]'></a>
