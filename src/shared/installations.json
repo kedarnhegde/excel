@@ -3,19 +3,19 @@
         "id": 0,
         "name":"Kedar",
         "generator": "GENSET",
-        "imageUrl": "https://picsum.photos/200" 
+        "imageUrl": "https://picsum.photos/200"
     },
     {
         "id": 1,
         "name":"Kedar",
         "generator": "GENSET",
-        "imageUrl": "https://picsum.photos/200" 
+        "imageUrl": "https://picsum.photos/200"
     },
     {
         "id": 2,
         "name":"Kedar",
         "generator": "GENSET",
-        "imageUrl": "https://picsum.photos/200" 
+        "imageUrl": "https://picsum.photos/200"
     },
     {
         "id": 3,
@@ -301,6 +301,36 @@
     },
     {
         "id": 50,
+        "name":"Kedar",
+        "generator": "GENSET",
+        "imageUrl": "https://picsum.photos/200" 
+    },
+    {
+        "id": 51,
+        "name":"Kedar",
+        "generator": "GENSET",
+        "imageUrl": "https://picsum.photos/200" 
+    },
+    {
+        "id": 52,
+        "name":"Kedar",
+        "generator": "GENSET",
+        "imageUrl": "https://picsum.photos/200" 
+    },
+    {
+        "id": 53,
+        "name":"Kedar",
+        "generator": "GENSET",
+        "imageUrl": "https://picsum.photos/200" 
+    },
+    {
+        "id": 54,
+        "name":"Kedar",
+        "generator": "GENSET",
+        "imageUrl": "https://picsum.photos/200" 
+    },
+    {
+        "id": 55,
         "name":"Kedar",
         "generator": "GENSET",
         "imageUrl": "https://picsum.photos/200" 

@@ -26,6 +26,7 @@
 }
 .about-content:hover{
     color: white;
+    transition: ease-in 500ms;
 }
 .card-head {
     color: white;
@@ -60,12 +61,14 @@
     margin-bottom: 20px;
 }
 .fact-card:hover {
-    transform: translateY(-20px);
-    box-shadow: 0px 3px 15px #00000029;
+    transform: scale(1.05);
+    box-shadow: 0px 2px 10px #ffffff75;
+    transition: ease-in 500ms;
 }
 .accord:hover {
-    transform: translateY(-10px);
-    box-shadow: 0px 3px 15px #00000029;
+    transform: scale(1.05);
+    box-shadow: 0px 2px 10px #ffffff60;
+    transition: ease-in 500ms;
 }
 .about-fullbox {
     background-image: url('/assets/images/4.svg');

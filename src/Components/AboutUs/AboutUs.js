@@ -50,7 +50,7 @@ class About extends Component {
             <div className='row'>
               <div className='col-12'>
                   <h3 className='head2'>Our Team</h3>
-                  <Accordion className='accord'>
+                  <Accordion className='accord' defaultActiveKey="0">
                       <Card className='accord-card' id='accordian-heading'>
                           <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }}>
                               <div className='accord-head'>

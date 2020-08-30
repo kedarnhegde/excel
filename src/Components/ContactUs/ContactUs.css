@@ -61,17 +61,20 @@
     color: white;
 }
 .linkto:hover {
-    color: #801408;
+    color: #db230f;
+    transition: ease-in 400ms;
 }
 .contact-table td:hover{
-    transform: translateY(-5px);
-    box-shadow: 0px 3px 10px #00000029;
+    transform: scale(1.05);
+        box-shadow: 0px 3px 10px #00000029;
+        transition: ease-in 200ms;
 
 }
 .contact-img:hover{
     border-radius: 10px;
-    transform: translateY(-5px);
+    transform: scale(1.05);
     box-shadow: 0px 3px 10px #00000029;
+    transition: ease-in 500ms;
 }
 
 .submit-button {
@@ -90,6 +93,7 @@
 }
 #form-submit:hover {
     background-color: #801408;
+    transition: ease-in 500ms;
 }
 .table-body {
     color: white;

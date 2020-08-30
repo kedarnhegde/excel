@@ -52,7 +52,6 @@ class Contact extends Component {
 
     render(){
       return (
-        
         <div className='full-box'>
             <div className='container contact-mainbox'>
                 <div className='image-box'>

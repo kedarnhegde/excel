@@ -16,8 +16,9 @@
     box-shadow: #00000029 0px 1px 5px;
 }
 #gen-cards:hover {
-    transform: translateY(-20px);
-    box-shadow: white 0px 1px 5px;
+    transform: scale(1.05);
+    transition: ease 500ms;
+    box-shadow: #ffffff75 0px 1px 5px;
 }
 .gen-card-img {
     border-radius: 10px 10px 0 0;
