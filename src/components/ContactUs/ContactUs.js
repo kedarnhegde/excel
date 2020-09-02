@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Form, FormGroup, Input, Button, Col, Table} from 'reactstrap';
+import {Form, FormGroup, Input, Button, Col, Table, Card, CardBody} from 'reactstrap';
 import './ContactUs.css';
 
 class Contact extends Component {
@@ -54,14 +54,15 @@ class Contact extends Component {
       return (
         <div className='full-box'>
             <div className='container contact-mainbox'>
-                <div className='image-box'>
-                    <div className='offset-4 col-6'>
-                        <img src='/assets/images/full.png' alt='logo' className='contact-img'/>
+            <div className='image-box'>
+                    <div className='offset-md-6 col-12 col-md-4 contact-heading'>
+                    <h1><b>Drop us a line.</b></h1>
+                            
                     </div>
-                </div>
+             </div>
                 <div className='row form-box'>
-                    <div className='offset-md-6 col-6 col-md-4'>
-                    <Form>
+                    <div className='offset-md-6 col-12 col-md-4'>
+                    <Form className=''>
                             <FormGroup row>
                                 <Col>
                                     <Input type="name" name="name" placeholder="Name:"  className="form-fields" id='form-inp' onChange={(event) => this.handleChange(event, "name")}/>
@@ -128,6 +129,58 @@ class Contact extends Component {
                             </tr>
                         </tbody>
                     </Table>
+                    </div>
+                </div>
+                <div className='row people-card'>
+                    <div className='col-12'>
+                        <Card id='phone-cards'>
+                            <CardBody>
+                            <dl className="row">
+                                <dt className="col-5 fact-dt">Name</dt>
+                                <dd className="col-7 fact-dd">Mr. R Madhavan - M.D</dd>
+                                <dt className="col-5 fact-dt">Contact Number</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="tel:[+91 9845033116]">+91-9845033116</a></dd>
+                                <dt className="col-5 fact-dt">E-mail</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="mailto:nobreak@excelgenerators.com">nobreak@excelgenerators.com</a></dd>
+                            </dl>
+                            </CardBody>
+                        </Card>
+                        <Card id='phone-cards'>
+                            <CardBody>
+                            <dl className="row">
+                                <dt className="col-5 fact-dt">Name</dt>
+                                <dd className="col-7 fact-dd">Office</dd>
+                                <dt className="col-5 fact-dt">Contact Number</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="tel:[+91 80 23448070]">+91-80-23448070</a></dd>
+                                <dt className="col-5 fact-dt">E-mail</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="mailto:info@excelgenerators.com">info@excelgenerators.com</a></dd>
+                            </dl>
+                            </CardBody>
+                        </Card>
+                        <Card id='phone-cards'>
+                            <CardBody>
+                            <dl className="row">
+                                <dt className="col-5 fact-dt">Name</dt>
+                                <dd className="col-7 fact-dd">Mr. Hegde</dd>
+                                <dt className="col-5 fact-dt">Contact Number</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="tel:[+91 9880132335]">+91-9880132335</a></dd>
+                                <dt className="col-5 fact-dt">E-mail</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="mailto:hegde@excelgenerators.com">hegde@excelgenerators.com</a></dd>
+                            </dl>
+                            </CardBody>
+                        </Card>
+                        <Card id='phone-cards'>
+                            <CardBody>
+                            <dl className="row">
+                                <dt className="col-5 fact-dt">Name</dt>
+                                <dd className="col-7 fact-dd">Mr. Charan</dd>
+                                <dt className="col-5 fact-dt">Contact Number</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="tel:[+91 9901768022]">+91-9901768022</a></dd>
+                                <dt className="col-5 fact-dt">E-mail</dt>
+                                <dd className="col-7 fact-dd"><a className = 'cont-card-links' href="mailto:service@excelgenerators.com">service@excelgenerators.com</a></dd>
+                            </dl>
+                            </CardBody>
+                        </Card>
                     </div>
                 </div>
             </div>

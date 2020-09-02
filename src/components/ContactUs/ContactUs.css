@@ -2,7 +2,7 @@
 
 
 .full-box {
-    background-image: url('/assets/images/contact.jpg');
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fothers%2Fcontact.jpg?alt=media&token=eccb179b-22d3-43bf-86ba-c7b9c364088a');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,19 +10,19 @@
     width: 100%;
     height: 100%;
     background-color: darkgray;
-
 }
 
 .contact-mainbox {
     font-family: 'Montserrat', sans-serif;
     border-radius: 15px;
 }
-
+.contact-heading {
+    text-align: center;
+}
 #contact-heading h1{
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
-    margin-top: 30px;   
+    font-size: 40px;  
 }
 .form-fields {
     display: block;
@@ -33,7 +33,7 @@
 }
 .contact-img {
     width: 50%;
-    height: 50%
+    height: 50%;
 }
 .submit-button {
    border-radius: 15px;
@@ -99,17 +99,38 @@
     color: white;
     font-weight: 500;
 }
+.contact-heading {
+    padding-top: 120px;
+    color: floralwhite;
+    text-align: center;
+}
+.people-card {
+    display: none;
+}
+
 @media only screen and (max-width: 585px) {
+    
+    
     .table-box {
-        width: 200%;
-        background-color: darkgray;
+        display: none;
     }
-    .form-box {
-        width: 200%;
-        background-color: darkgray;
+    .people-card {
+        display: flex;
     }
-    .image-box {
-        width: 200%;
-        background-color: darkgray;
+    #phone-cards {
+        border-radius: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: rgba(255, 255, 255, 0.7);
     }
+    .cont-card-links {
+        color: #db230f;
+        text-decoration: none;
+    }
+    .cont-card-links:hover {
+        color: #db230f;
+        transition: ease-in 400ms;
+        text-decoration: none;
+    }
+    
 }

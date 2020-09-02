@@ -36,7 +36,7 @@ class About extends Component {
                         <dd className="col-6 fact-dd">1996</dd>
                         <dt className="col-6 fact-dt">M.D</dt>
                         <dd className="col-6 fact-dd">Mr. R Madhavan</dd>
-                        <dt className="col-6 fact-dt">Installments</dt>
+                        <dt className="col-6 fact-dt">Installations</dt>
                         <dd className="col-6 fact-dd">123,456,789</dd>
                         <dt className="col-6 fact-dt">Employees</dt>
                         <dd className="col-6 fact-dd">40</dd>
