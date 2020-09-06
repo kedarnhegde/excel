@@ -7,7 +7,7 @@ import About from './components/AboutUs/AboutUs.js';
 import Footer from './components/Footer/Footer.js';
 import Installations from './components/Installations/Installations.js';
 import Navbar from './components/Navbar/Navbar.js';
-import Products from './components/Products/Products';
+import Products from './components/Products/Products_main';
 
 class App extends Component {
   render(){
