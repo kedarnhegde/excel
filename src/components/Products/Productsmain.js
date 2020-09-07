@@ -32,9 +32,9 @@ class Products extends Component {
                             <div className = 'inner'>
                                 <h1 className = 'title'><centre>Our Products</centre></h1> 
                                 <p>We provide you with the best of ours</p>
-                                <a href = '#productC' className='btn'>RBT UPS</a>
+                                <a href = '#productA' className='btn'>RBT UPS</a>
                                 <a href = '#productB' className='btn ml-4'>DRUPS</a>
-                                <a href = '#productA' className='btn ml-4'>DG sets</a>
+                                <a href = '#productC' className='btn ml-4'>DG sets</a>
 
                             </div>
                         </div>                
