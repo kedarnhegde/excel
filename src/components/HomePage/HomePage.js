@@ -97,7 +97,7 @@ class Home extends React.Component {
                                 <div className = 'col-12 col-sm-4 ae'>
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FExpress.png?alt=media&token=9ed5f0d9-d80a-4f10-a3ef-55c282f06936' alt = 'American Express' width = '100%' height = '100%'/>
                                 </div>
-                                <span className = 'largeclients justify-self-center align-self-center mx-auto'><a href = '/installations' className='btn1 border mx-auto d-block'>More</a></span>
+                                <span className = 'largeclients justify-self-center align-self-center mx-auto'><a href = '/installations/' className='btn1 border mx-auto d-block'>More</a></span>
                             </div>
                     </div>
                 </div>

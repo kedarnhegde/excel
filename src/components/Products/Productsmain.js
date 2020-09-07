@@ -44,9 +44,11 @@ class Products extends Component {
                 <div id = 'productA'>
                     <ProductA/>
                 </div>
+                
                 <div id = 'productB'>
                     <ProductB id = 'productB'/>
                 </div>
+                
                 <div id = 'productC'>
                     <ProductC />
                 </div>

@@ -12,20 +12,20 @@ class Footer extends Component {
                             <hr className='hr-footer-line' />
                             <ul className='footer-link-set'>
                                 <li><a href='/' className='footer-link'>Home</a></li>
-                                <li><a href='/installations' className='footer-link'>Installations</a></li>
-                                <li><a href='/products' className='footer-link'>Products</a></li>
-                                <li><a href='/about' className='footer-link'>About</a></li>
-                                <li><a href='/contact' className='footer-link'>Request Callback</a></li>
+                                <li><a href='/installations/' className='footer-link'>Installations</a></li>
+                                <li><a href='/products/' className='footer-link'>Products</a></li>
+                                <li><a href='/about/' className='footer-link'>About</a></li>
+                                <li><a href='/contact/' className='footer-link'>Request Callback</a></li>
                             </ul>
                         </div>
                         <div className='col-12 col-md-3'>
                             <p className='connect'>Connect With Us</p>
                             <hr className='hr-footer-line' />
                             <div className = 'footer-icons'>
-                                <a href='https://www.excelgenerators.com' className='fa fa-globe fa-2x fa-links'></a>
-                                <a className='fa fa-linkedin-square fa-2x fa-links' href='https://www.linkedin.com/company/excel-generators-private-limited/about/' target='blank'></a>
-                                <a className='fa fa-phone fa-2x fa-links' href='tel:[+91 80 23448070]'></a>
-                                <a className='fa fa-google fa-2x fa-links' href='mailto:info@excelgenerators.com'></a>
+                                <a href='https://www.excelgenerators.com' className='fa fa-globe fa-2x fa-links'> </a>
+                                <a className='fa fa-linkedin-square fa-2x fa-links' href='https://www.linkedin.com/company/excel-generators-private-limited/about/' target='blank'> </a>
+                                <a className='fa fa-phone fa-2x fa-links' href='tel:[+91 80 23448070]'> </a>
+                                <a className='fa fa-google fa-2x fa-links' href='mailto:info@excelgenerators.com'> </a>
                             </div>
                         </div>
                         <div className='col-12 col-md-6'>
