@@ -7,13 +7,14 @@ import {Card, CardBody, CardImg, CardTitle, CardSubtitle, CardGroup} from 'react
 class Installations extends Component {
     render() {
         return(
-            <div className='install-fullbox'>
+            <div className='install-fullbox' id='top'>
                 <div className='gen-head'>
                         <div className = 'col-12 col-sm-6 offset-sm-3 justify-content-center align-self-center'>
                             <h1><b>Our Clients</b></h1>
                             <p>We have worked around the world with the best</p>
                         </div>
-                </div>                   
+                </div>   
+                <a class="fa fa-chevron-up back-to-top" href='#top' aria-hidden="true"> </a>                
                 <div className='container'>
                     <CardGroup>
                         { data.map(element => {
@@ -33,7 +34,7 @@ class Installations extends Component {
                                 </div>
                             )
                         })}                       
-                    </CardGroup>
+                    </CardGroup>   
                 </div>
             </div>
         );
