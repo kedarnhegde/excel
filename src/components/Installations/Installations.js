@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Installations.css';
 import data from '../../shared/installations.json';
 import {Card, CardBody, CardImg, CardTitle, CardSubtitle, CardGroup} from 'reactstrap';
+import Fade from 'react-reveal/Fade';
 
 
 class Installations extends Component {
@@ -16,6 +17,7 @@ class Installations extends Component {
                 </div>   
                 <a class="fa fa-chevron-up back-to-top" href='#top' aria-hidden="true"> </a>                
                 <div className='container'>
+                    <Fade left>
                     <CardGroup>
                         { data.map(element => {
                             return (
@@ -34,7 +36,8 @@ class Installations extends Component {
                                 </div>
                             )
                         })}                       
-                    </CardGroup>   
+                    </CardGroup> 
+                    </Fade>  
                 </div>
             </div>
         );

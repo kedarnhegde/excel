@@ -3,6 +3,29 @@ import './AboutUs.css'
 import { Card, Accordion } from 'react-bootstrap';
 
 class About extends Component {
+
+  state = {
+    toggle1: false,
+    toggle2: true,
+    toggle3: true
+  }
+
+  changeit1() {
+      this.setState({
+          toggle1: !this.state.toggle1
+      })
+  }
+  changeit2() {
+    this.setState({
+        toggle2: !this.state.toggle2
+    })
+}
+changeit3() {
+  this.setState({
+      toggle3: !this.state.toggle3
+  })
+}
+
     render(){
       return (
         <div className='about-fullbox'>
@@ -51,11 +74,11 @@ class About extends Component {
               <div className='col-12'>
                   <h3 className='head2'>Our Team</h3>
                   <Accordion className='accord' defaultActiveKey="0">
-                      <Card className='accord-card' id='accordian-heading'>
-                          <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }}>
+                      <Card className='accord-card' id='accordian-heading' >
+                          <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }} onClick={this.changeit1.bind(this)}>
                               <div className='accord-head'>
                                 Mr. R Madhavan - M.D
-                                <i className="fa fa-caret-down arrow-down"></i>
+                                {this.state.toggle1 === false ? <i className="fa fa-caret-up arrow-down"></i> : <i className="fa fa-caret-down arrow-down"></i>}
                               </div>
                           </Accordion.Toggle>
                           <Accordion.Collapse eventKey="0">
@@ -68,11 +91,11 @@ class About extends Component {
                       </Card>
                   </Accordion>
                   <Accordion className='accord'>
-                      <Card className='accord-card' id='accordian-heading'>
-                          <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }}>
+                      <Card className='accord-card' id='accordian-heading' >
+                          <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }} onClick={this.changeit2.bind(this)}>
                               <div className='accord-head'>
                                 Mr. Hegde
-                                <i className="fa fa-caret-down arrow-down"></i>
+                                {this.state.toggle2 === false ? <i className="fa fa-caret-up arrow-down"></i> : <i className="fa fa-caret-down arrow-down"></i>}
                               </div>
                           </Accordion.Toggle>
                           <Accordion.Collapse eventKey="0">
@@ -85,11 +108,11 @@ class About extends Component {
                       </Card>
                   </Accordion>
                   <Accordion className='accord'>
-                      <Card className='accord-card' id='accordian-heading'>
-                          <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }}>
+                      <Card className='accord-card' id='accordian-heading' >
+                          <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }} onClick={this.changeit3.bind(this)}>
                               <div className='accord-head'>
                                 Mr. Charan
-                                <i className="fa fa-caret-down arrow-down"></i>
+                                {this.state.toggle3 === false ? <i className="fa fa-caret-up arrow-down"></i> : <i className="fa fa-caret-down arrow-down"></i>}
                               </div>
                           </Accordion.Toggle>
                           <Accordion.Collapse eventKey="0">
