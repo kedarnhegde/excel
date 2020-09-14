@@ -44,20 +44,15 @@ class Home extends React.Component {
                                 <p>While we are the forefront of and specialize in design-build, we are very familiar with a number of delivery methods and are confident we can find the process that can help you achieve your goal.</p>
                             </Fade>
                         </div>
-                        <div className= 'col-12 col-sm-2 col2 align-self-center justify-content-center'>
-                        <Fade bottom>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Frolls.png?alt=media&token=4cd71150-ec28-4898-a24d-45ac5aa50799' alt = 'rolls royce' width = '40%' className="rounded mx-auto d-block"/>
-                        </Fade>
+                        <div className = 'col-12 col-sm-4 align-self-center'>
+                            <Fade top>
+                                <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FRolls-Kino.jpg?alt=media&token=b0a056b9-70da-4b3d-bfe1-6a3c3935b799' alt = 'Rolls-Kino' width = '100%' className="rounded mx-auto d-block"/>
+                            </Fade>
                         </div>
                         <div className = 'col-12 col-sm-2 align-self-center'>
-                        <Fade top>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FVycon.jpg?alt=media&token=21adf7fb-f061-42e2-93c1-da09d5e66110' alt = 'Vycon' width = '100%' className="rounded mx-auto d-block"/>
-                        </Fade>
-                        </div>
-                        <div className = 'col-12 col-sm-2 align-self-center'>
-                        <Fade top>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FIEM.png?alt=media&token=691eec58-0c19-4c0d-898d-f9ed4b499167' alt = 'IEM' width = '100%' className="rounded mx-auto d-block"/>
-                        </Fade>
+                            <Fade bottom>
+                                <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FIEM.png?alt=media&token=691eec58-0c19-4c0d-898d-f9ed4b499167' alt = 'IEM' width = '100%' className="rounded mx-auto d-block"/>
+                            </Fade>
                         </div>
 
                     </div>
@@ -75,8 +70,8 @@ class Home extends React.Component {
                                 <div className = 'col-12 col-sm-3 offset-sm-1 rounded mx-auto d-block'>
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fbosch.png?alt=media&token=a6069bd8-9cf5-4d23-8be1-04e424161d57' alt = 'BOSCH' width = '100%' height = '100%'></img>
                                 </div>
-                                <div className = 'col-12 col-sm-4 justify-content-center align-self-center'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FING.png?alt=media&token=db91be74-d8de-4877-9ed3-24dc0f38cb40' alt = 'ING' width = '100%' height = '10%'></img>
+                                <div className = 'col-12 col-sm-4 justify-content-center align-self-center mx-auto isroo'>
+                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FISRO%20logo.png?alt=media&token=3d907ee3-3af5-4c31-a1ff-5790e6dc293e' alt = 'ISRO' width = '60%' height = '5%'></img>
                                 </div>
                             </div>
                             <div className = 'row clients largeclients'>
@@ -94,10 +89,12 @@ class Home extends React.Component {
                                 <div className = 'col-12 col-sm-4 mt-5'>
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FCognizant.png?alt=media&token=3d304383-d920-40be-a619-ba5b1d49d0b5' alt = 'cognizant' width = '100%' height = '100%'/>
                                 </div>
-                                <div className = 'col-12 col-sm-4 ae'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FExpress.png?alt=media&token=9ed5f0d9-d80a-4f10-a3ef-55c282f06936' alt = 'American Express' width = '100%' height = '100%'/>
+                                <div className = 'col-12 col-sm-4 mx-auto ae'>
+                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'American Express' width = '50%' height = '100%'/>
                                 </div>
+                                
                                 <span className = 'largeclients justify-self-center align-self-center mx-auto'><a href = '/installations/' className='btn1 border mx-auto d-block'>More</a></span>
+                                
                             </div>
                     </div>
                 </div>

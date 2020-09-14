@@ -151,6 +151,9 @@ header {
     margin-bottom: 15%;
     font-weight: 400;
   }
+  .rolls-phone {
+    display: none;
+  }
   .title2 {
     color:black;
     justify-content: center;
@@ -274,4 +277,7 @@ header {
 }
 .clientnames {
   color : red;
+}
+.isroo {
+  text-align: center;
 }

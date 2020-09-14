@@ -42,10 +42,7 @@ changeit3() {
               <div className="col-12 col-sm-6">
                   <h3 className='head2'>Our History</h3>
                   <p className='about-content'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit suscipit beatae, officiis dolore tempore incidunt saepe blanditiis adipisci esse, laudantium eveniet repudiandae aperiam laborum, veniam voluptatem numquam fuga minima quidem?
-                  </p>
-                  <p className='about-content'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit suscipit beatae, officiis dolore tempore incidunt saepe blanditiis adipisci esse, laudantium eveniet repudiandae aperiam laborum, veniam voluptatem numquam fuga minima quidem?
+                  Excel Generators was established in 1996 in Bangalore and has done more than 500 installations all over India of DG Sets till date with satisfied clientele such as all major Indian airports, ITC Hotels, CTS, TATA BP Solar, JNCASR, L&T ECC, Hi-Tech City Hyd, ICICI Bank, Microsoft, Robert Bosch, IIT Research Park, etc. We also entered the field of DRUPS in 2013 and have a clientele of Toyota Kirloskar, Hewlett Packard(hp), ISRO, LRDE, Pfizer, etc.
                   </p>
               </div>
               <div className='col-12 col-sm-6'>
@@ -60,7 +57,7 @@ changeit3() {
                         <dt className="col-6 fact-dt">M.D</dt>
                         <dd className="col-6 fact-dd">Mr. R Madhavan</dd>
                         <dt className="col-6 fact-dt">Installations</dt>
-                        <dd className="col-6 fact-dd">123,456,789</dd>
+                        <dd className="col-6 fact-dd">500+</dd>
                         <dt className="col-6 fact-dt">Employees</dt>
                         <dd className="col-6 fact-dd">40</dd>
                         <dt className="col-6 fact-dt">Headquarters</dt>
@@ -84,7 +81,8 @@ changeit3() {
                           <Accordion.Collapse eventKey="0">
                           <div className='accord-body'>
                               <Card.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit suscipit beatae, officiis dolore tempore incidunt saepe blanditiis adipisci esse, laudantium eveniet repudiandae aperiam laborum, veniam voluptatem numquam fuga minima quidem?
+                              <p>He says</p>
+                              <p>"We Team Excel always work towards the Progress to provide Quality & Uninterrupted Power at all times."</p>
                               </Card.Body>
                           </div>
                           </Accordion.Collapse>
@@ -95,16 +93,10 @@ changeit3() {
                           <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }} onClick={this.changeit2.bind(this)}>
                               <div className='accord-head'>
                                 Mr. Hegde
-                                {this.state.toggle2 === false ? <i className="fa fa-caret-up arrow-down"></i> : <i className="fa fa-caret-down arrow-down"></i>}
+
                               </div>
                           </Accordion.Toggle>
-                          <Accordion.Collapse eventKey="0">
-                          <div className='accord-body'>
-                              <Card.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit suscipit beatae, officiis dolore tempore incidunt saepe blanditiis adipisci esse, laudantium eveniet repudiandae aperiam laborum, veniam voluptatem numquam fuga minima quidem?
-                              </Card.Body>
-                          </div>
-                          </Accordion.Collapse>
+
                       </Card>
                   </Accordion>
                   <Accordion className='accord'>
@@ -112,16 +104,10 @@ changeit3() {
                           <Accordion.Toggle as={Card.Header} eventKey="0" style={{ backgroundColor: '#b21b09', borderColor: '#b21b09' }} onClick={this.changeit3.bind(this)}>
                               <div className='accord-head'>
                                 Mr. Charan
-                                {this.state.toggle3 === false ? <i className="fa fa-caret-up arrow-down"></i> : <i className="fa fa-caret-down arrow-down"></i>}
+                                
                               </div>
                           </Accordion.Toggle>
-                          <Accordion.Collapse eventKey="0">
-                          <div className='accord-body'>
-                              <Card.Body>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit suscipit beatae, officiis dolore tempore incidunt saepe blanditiis adipisci esse, laudantium eveniet repudiandae aperiam laborum, veniam voluptatem numquam fuga minima quidem?
-                              </Card.Body>
-                          </div>
-                          </Accordion.Collapse>
+                          
                       </Card>
                   </Accordion>
               </div>
@@ -133,4 +119,3 @@ changeit3() {
   }
   
   export default About;
-  

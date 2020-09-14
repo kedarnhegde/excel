@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Form, FormGroup, Input, Button, Col, Table, Card, CardBody} from 'reactstrap';
 import './ContactUs.css';
+import {db} from '../../firebase';
 
 class Contact extends Component {
 
@@ -39,14 +40,20 @@ class Contact extends Component {
             alert('Please Enter all fields');
         }
         else{
-            var data = {
+            event.preventDefault();
+            db.collection('contacts').add({
                 name: this.state.name,
                 email: this.state.email,
                 number: this.state.number,
                 desc: this.state.desc
-            }
-            console.log('Success');
-            alert(JSON.stringify(data));
+            })
+            .then(() => {
+                alert('Success');   
+            })
+            .catch(error => {
+                alert(error.message);
+            });
+            event.target.reset();
         }
     }
 
@@ -62,7 +69,7 @@ class Contact extends Component {
              </div>
                 <div className='row form-box'>
                     <div className='offset-md-6 col-12 col-md-4'>
-                    <Form className=''>
+                    <Form onSubmit = {this.handleClick.bind(this) }>
                             <FormGroup row>
                                 <Col>
                                     <Input type="name" name="name" placeholder="Name:"  className="form-fields" id='form-inp' onChange={(event) => this.handleChange(event, "name")}/>
@@ -85,7 +92,7 @@ class Contact extends Component {
                             </FormGroup>
                             <FormGroup row>
                                 <Col>
-                                    <Button type='submit' className='submit-button btn btn-block' id='form-submit' size='lg' onClick={this.handleClick.bind(this) }>Submit</Button>
+                                    <Button type='submit' className='submit-button btn btn-block' id='form-submit' size='lg'>Submit</Button>
                                 </Col>
                             </FormGroup>
                         </Form> 
