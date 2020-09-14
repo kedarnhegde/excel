@@ -167,8 +167,10 @@ header {
     margin-bottom:15%;
   }
 }
-
-
+.more {
+  background-color: #1179e7;
+  margin-left: 25%;
+}
 .btn{
   margin-top: 1rem;
   padding: 0.7rem 1.6rem;
@@ -224,6 +226,7 @@ header {
 }
 .ae {
   margin-top : 5px;
+  text-align: center;
 }
 
 @media screen and (max-width : 480px){

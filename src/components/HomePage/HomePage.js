@@ -36,7 +36,8 @@ class Home extends React.Component {
                     </header>
 
                 </div>
-                <div className = 'container' id = 'partners'>
+                <div id = 'partners'></div>
+                <div className = 'container'>
                     <div className = 'row rowheader'>
                         <div className = 'col-12 col-sm-6 col1'>
                             <Fade top>
@@ -54,7 +55,6 @@ class Home extends React.Component {
                                 <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FIEM.png?alt=media&token=691eec58-0c19-4c0d-898d-f9ed4b499167' alt = 'IEM' width = '100%' className="rounded mx-auto d-block"/>
                             </Fade>
                         </div>
-
                     </div>
                 </div>
                 <div clasName = 'clienoverlay'>
@@ -71,7 +71,7 @@ class Home extends React.Component {
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fbosch.png?alt=media&token=a6069bd8-9cf5-4d23-8be1-04e424161d57' alt = 'BOSCH' width = '100%' height = '100%'></img>
                                 </div>
                                 <div className = 'col-12 col-sm-4 justify-content-center align-self-center mx-auto isroo'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FISRO%20logo.png?alt=media&token=3d907ee3-3af5-4c31-a1ff-5790e6dc293e' alt = 'ISRO' width = '60%' height = '5%'></img>
+                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FISRO%20logo.png?alt=media&token=3d907ee3-3af5-4c31-a1ff-5790e6dc293e' alt = 'ISRO' width = '50%' height = '5%'></img>
                                 </div>
                             </div>
                             <div className = 'row clients largeclients'>
@@ -90,10 +90,11 @@ class Home extends React.Component {
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FCognizant.png?alt=media&token=3d304383-d920-40be-a619-ba5b1d49d0b5' alt = 'cognizant' width = '100%' height = '100%'/>
                                 </div>
                                 <div className = 'col-12 col-sm-4 mx-auto ae'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'American Express' width = '50%' height = '100%'/>
+                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'DRDO' width = '50%' height = '100%'/>
                                 </div>
-                                
-                                <span className = 'largeclients justify-self-center align-self-center mx-auto'><a href = '/installations/' className='btn1 border mx-auto d-block'>More</a></span>
+                                <div className = 'col-sm-4 mt-5 r'>
+                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button href = '/installations/' className='btn1 border mt-5 more d-block'>More</button></span>
+                                </div>
                                 
                             </div>
                     </div>
