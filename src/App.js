@@ -15,10 +15,10 @@ class App extends Component {
       <div>
         <Navbar/>
         <Route path = '/' exact component={Home} />
-        <Route path = '/contact/' component={Contact} />
-        <Route path = '/about/' component={About} />
-        <Route path = '/installations/' component={Installations} />
-        <Route path = '/products/' component={Products} />
+        <Route path = '/contact' component={Contact} />
+        <Route path = '/about' component={About} />
+        <Route path = '/installations' component={Installations} />
+        <Route path = '/products' component={Products} />
         <Footer />
       </div>
     );

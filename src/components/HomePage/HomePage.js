@@ -93,7 +93,7 @@ class Home extends React.Component {
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'DRDO' width = '45%' height = '90%'/>
                                 </div>
                                 <div className = 'col-sm-4 mt-5 r'>
-                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button className='btn1 border mt-5 more d-block'><a href = '/installations/' className='more-btn'>More</a></button></span>
+                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button className='btn1 border mt-5 more d-block'><a href = '/installations' className='more-btn'>More</a></button></span>
                                 </div>
                                 
                             </div>

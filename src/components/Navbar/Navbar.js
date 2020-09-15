@@ -27,10 +27,10 @@ class Nav extends React.Component {
                 <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
                     <ReactBootstrap.Nav className="mr-auto">
                     <ReactBootstrap.Nav.Link href="/"><span className = 'inner1'>Home</span></ReactBootstrap.Nav.Link>
-                    <ReactBootstrap.Nav.Link href="/installations/"><span className = 'inner1'>Installations</span></ReactBootstrap.Nav.Link>
-                    <ReactBootstrap.Nav.Link href="/products/"><span className = 'inner1'>Products</span></ReactBootstrap.Nav.Link>
-                    <ReactBootstrap.Nav.Link href="/about/"><span className = 'inner1'>About</span></ReactBootstrap.Nav.Link>
-                    <ReactBootstrap.Nav.Link href="/contact/"><span className = 'inner1 mr-auto'>Request Callback</span></ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/installations"><span className = 'inner1'>Installations</span></ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/products"><span className = 'inner1'>Products</span></ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/about"><span className = 'inner1'>About</span></ReactBootstrap.Nav.Link>
+                    <ReactBootstrap.Nav.Link href="/contact"><span className = 'inner1 mr-auto'>Request Callback</span></ReactBootstrap.Nav.Link>
                 
                     </ReactBootstrap.Nav>
                 </ReactBootstrap.Navbar.Collapse>
