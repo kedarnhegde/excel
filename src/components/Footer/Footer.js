@@ -12,10 +12,10 @@ class Footer extends Component {
                             <hr className='hr-footer-line' />
                             <ul className='footer-link-set'>
                                 <li><a href='/' className='footer-link'>Home</a></li>
-                                <li><a href='/installations' className='footer-link'>Installations</a></li>
-                                <li><a href='/products' className='footer-link'>Products</a></li>
-                                <li><a href='/about' className='footer-link'>About</a></li>
-                                <li><a href='/contact' className='footer-link'>Request Callback</a></li>
+                                <li><a href='/installations/' className='footer-link'>Installations</a></li>
+                                <li><a href='/products/' className='footer-link'>Products</a></li>
+                                <li><a href='/about/' className='footer-link'>About</a></li>
+                                <li><a href='/contact/' className='footer-link'>Request Callback</a></li>
                             </ul>
                         </div>
                         <div className='col-12 col-md-3'>

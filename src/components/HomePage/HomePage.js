@@ -93,7 +93,7 @@ class Home extends React.Component {
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'DRDO' width = '45%' height = '90%'/>
                                 </div>
                                 <div className = 'col-sm-4 mt-5 r'>
-                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button className='btn1 border mt-5 more d-block'><a href = '/installations' className='more-btn'>More</a></button></span>
+                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button className='btn1 border mt-5 more d-block'><a href = '/installations/' className='more-btn'>More</a></button></span>
                                 </div>
                                 
                             </div>
@@ -109,7 +109,7 @@ class Home extends React.Component {
                         </ReactBootstrap.CarouselItem>
                         <ReactBootstrap.CarouselItem>
                             <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fcarousel2.svg?alt=media&token=f7161b0c-dc50-4a0b-ad21-115bf0f7801f' alt = 'ETLISL' className = 'rounded mx-auto d-block' width = '30%'/>
-                            <ReactBootstrap.Carousel.Caption>MIS Excel Generators Pvt Ltd., Bangalore is directly associated with us for maintenance of our above mentioned DG sets from April 2009. We are satisfied with their, upkeep and maintenance of the DG sets, quality of service and responsiveness to our calls. We wish them good luck and success in their endeavors.<br></br>
+                            <ReactBootstrap.Carousel.Caption>Excel Generators Pvt Ltd., Bangalore is directly associated with us for maintenance of our above mentioned DG sets from April 2009. We are satisfied with their, upkeep and maintenance of the DG sets, quality of service and responsiveness to our calls. We wish them good luck and success in their endeavors.<br></br>
                             <b className = 'clientnames'>K Murali - Manager - Planning and Facility Mgt, ETLISL</b></ReactBootstrap.Carousel.Caption>
                         </ReactBootstrap.CarouselItem>
                         <ReactBootstrap.CarouselItem>
@@ -133,7 +133,7 @@ class Home extends React.Component {
                         <div className = 'col-12 mt-5'>
                             <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fcarousel2.svg?alt=media&token=f7161b0c-dc50-4a0b-ad21-115bf0f7801f' alt = 'ETLISL' className = 'rounded mx-auto d-block' width = '30%'/>
                         </div>
-                        <div className = 'col-12'><p className = 'carouselcaption'><span className = 'fa fa-quote-left'></span> MIS Excel Generators Pvt Ltd., Bangalore is directly associated with us for maintenance of our above mentioned DG sets from April 2009. We are satisfied with their, upkeep and maintenance of the DG sets, quality of service and responsiveness to our calls. We wish them good luck and success in their endeavors. <span className = 'fa fa-quote-right'></span><br></br>
+                        <div className = 'col-12'><p className = 'carouselcaption'><span className = 'fa fa-quote-left'></span> Excel Generators Pvt Ltd., Bangalore is directly associated with us for maintenance of our above mentioned DG sets from April 2009. We are satisfied with their, upkeep and maintenance of the DG sets, quality of service and responsiveness to our calls. We wish them good luck and success in their endeavors. <span className = 'fa fa-quote-right'></span><br></br>
                             <b className = 'clientnames'>K Murali - Manager - Planning and Facility Mgt, ETLISL</b></p>
                         </div>
                     </div>
