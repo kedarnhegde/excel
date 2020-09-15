@@ -31,7 +31,7 @@ class Products extends Component {
                         <div className = 'overlay'>
                             <div className = 'inner'>
                                 <h1 className = 'title'><centre>Our Products</centre></h1> 
-                                <p>We provide you with the best of ours</p>
+                                <p>Uninterrupted Power is in our DNA</p>
                                 <a href = '#productA' className='btn'>RBT UPS</a>
                                 <a href = '#productB' className='btn ml-4'>DRUPS</a>
                                 <a href = '#productC' className='btn ml-4'>DG sets</a>

@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Products.css';
 import Fade from 'react-reveal/Fade';
 import ReactPlayer from 'react-player';
+import {Button} from 'reactstrap';
 
 
 class ProductC extends Component {
@@ -13,6 +14,7 @@ class ProductC extends Component {
                         <div className = 'row header'>
                             <div className = 'col-12 col-sm-6 align-self-center justify-content-center'>
                                 <Fade top><h1 className ='title2'>Rotabloc UPS (RBT UPS)</h1>
+                                    <Button className='down-button'><a className = 'down-link' href='https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2FPDFS%2FRBT%20UPS.pdf?alt=media&token=4dc5deaf-00d9-4536-9273-4b1efd0d94d1' target='blank'>View Brochure <span className='fa fa-eye'></span></a></Button>
                                 <p>The RBT builds upon the Rotabloc Energy Storage Unit to provide a simple UPS system that can be configured to provide the desired level of redundancy and resiliency for your facility. Efficient and sustainable, RBT can be used in low and medium voltage and, in either design, RBT delivers highly competitive CapEx and exceptionally low OpEx leading to an unmatched Total Cost of Ownership.</p>
                                 </Fade>
                             </div>

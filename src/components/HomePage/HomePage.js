@@ -58,8 +58,8 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div clasName = 'clienoverlay'>
-                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fclientback.jpg?alt=media&token=2d107087-e144-43e0-807e-8ff4e35ec466' alt = 'clients' zindex = '-2' width='100%' className = 'clientimg'/>
-                        <div className = 'container'>
+                <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fclientback.jpg?alt=media&token=2d107087-e144-43e0-807e-8ff4e35ec466' alt = 'clients' zindex = '-2' width='100%' height='100%' className = 'clientimg'/>   
+                        <div className = 'container clients-bg'>
                             <div className = 'row'>
                                 <h1>Our Clients</h1> 
                             </div>
@@ -86,20 +86,20 @@ class Home extends React.Component {
                                 </div>
                             </div>
                             <div className = 'row clients'>
-                                <div className = 'col-12 col-sm-4 mt-5'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FCognizant.png?alt=media&token=3d304383-d920-40be-a619-ba5b1d49d0b5' alt = 'cognizant' width = '100%' height = '100%'/>
+                                <div className = 'col-12 col-sm-4 mt-5 isroo'>
+                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FPfizer.png?alt=media&token=e17d7029-e99c-4745-a850-fc9dcf2c1b27' alt = 'pfizer' width = '50%' height = '60%'/>
                                 </div>
-                                <div className = 'col-12 col-sm-4 mx-auto ae'>
+                                <div className = 'col-12 col-sm-4 mt-5 ae'>
                                     <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'DRDO' width = '50%' height = '100%'/>
                                 </div>
                                 <div className = 'col-sm-4 mt-5 r'>
-                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button href = '/installations/' className='btn1 border mt-5 more d-block'>More</button></span>
+                                    <span className = 'largeclients justify-self-center align-self-center mx-auto'><button className='btn1 border mt-5 more d-block'><a href = '/installations/' className='more-btn'>More</a></button></span>
                                 </div>
                                 
                             </div>
                     </div>
                 </div>
-                <div className = 'carousel mt-5'>
+                <div className = 'carousel'>
                     
                     <ReactBootstrap.Carousel>
                         <ReactBootstrap.CarouselItem>
@@ -120,7 +120,7 @@ class Home extends React.Component {
 
                     </ReactBootstrap.Carousel>
                 </div>
-                <div className = 'small-review mt-5'>
+                <div className = 'small-review'>
                     <div className = 'container'>
                         <div className = 'col-12 mt-5'>
                             <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fenron.svg?alt=media&token=bd794c11-c28f-4d44-943e-c34fbdd1fbc4' alt = 'ENRON' className = 'rounded mx-auto d-block' width = '50%'/>

@@ -144,7 +144,7 @@ header {
   margin-top : 15%;
   margin-bottom: 15%;
 }
-@media screen and (max-width : 480px){
+@media screen and (max-width : 585px){
   .rowheader {
     text-align:center;
     margin-top : 15%;
@@ -229,7 +229,7 @@ header {
   text-align: center;
 }
 
-@media screen and (max-width : 480px){
+@media screen and (max-width : 585px){
   .ae {
     display : none;
   }
@@ -283,4 +283,17 @@ header {
 }
 .isroo {
   text-align: center;
+}
+.hamburger {
+  background-color: rgba(224, 217, 217, 0.7);
+  
+}
+.clients-bg {
+  background-color: black;
+}
+.more-btn {
+  color: white;
+}
+.more-btn:hover {
+  text-decoration: none;
 }

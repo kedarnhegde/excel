@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactPlayer from 'react-player';
 import './Products.css';
 import Fade from 'react-reveal/Fade';
+import {Button} from 'reactstrap';
 
 class ProductB extends Component {
     render() {
@@ -12,6 +13,7 @@ class ProductB extends Component {
                         <div className = 'row header'>
                             <div className = 'col-12 col-sm-6 align-self-center justify-content-center'>
                                 <Fade top><h1 className ='drups-title'>Diesel Rotary Uninterruptible Power Supply (DRUPS)</h1>
+                                <Button className='down-button'><a className='down-link' href='https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2FPDFS%2FDRUPS.pdf?alt=media&token=91425b28-8dcb-4bf3-b61f-f3c3a0e0b923' target='blank'>View Brochure <span className='fa fa-eye'></span></a></Button>
                                 <p>Diesel Rotary UPS (no-break KS) has been in market since 1989 and provides uninterruptible power supply system used to secure and protect the critical equipments from the mains / grid failure. Manufactured and tested in modern facilities, this provides multiple benefits such as No AC requirement, No power electronics, No need for battery banks, take care of harmonics generation, compact size, high reliability, small footprint, user friendly, easy maintenance and reduced voltage distortions.</p>
                                 <p>(DG sets are available in 415 V, 6.6 kV, 11 kV)</p></Fade>
                             </div>

@@ -10,11 +10,7 @@
     padding-top : 10%;
     padding-bottom : 11%;
 }
-@media screen and (max-width : 1024px){
-    .install-fullbox{
-        padding-top : 25%;
-    }
-}
+
 
 #gen-cards {
     margin-top: 20px;
@@ -29,6 +25,7 @@
 }
 .gen-card-img {
     border-radius: 10px 10px 0 0;
+    height: 220px;
 }
 
 .gen-title {
@@ -71,4 +68,27 @@
     text-decoration: none;
     box-shadow: 0px 1px 10px #ffffff75;
     transition: ease 500ms;
+}
+.gen-body {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width : 1024px){
+    .install-fullbox{
+        padding-top : 25%;
+    }
+    .gen-card-img {
+        height: 150px;
+        }
+}
+@media screen and (max-width : 585px){
+    .gen-card-img {
+    height: 100%;
+    }
+    .gen-body {
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
 }

@@ -65,3 +65,15 @@
         color : white;
     }
 }
+.down-button {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.down-link {
+    color: white;
+    text-decoration: none;
+}
+.down-link:hover {
+    color: white;
+    text-decoration: none;
+}

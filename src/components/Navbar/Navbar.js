@@ -23,7 +23,7 @@ class Nav extends React.Component {
             <ReactBootstrap.Navbar className = 'nav' expand="lg">
             <div className = 'container offset-xl-2'>
                 <ReactBootstrap.Navbar.Brand href="/"><h2 className = 'navbarbrand'><i><b>excel</b></i></h2></ReactBootstrap.Navbar.Brand>
-                <ReactBootstrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <ReactBootstrap.Navbar.Toggle aria-controls="basic-navbar-nav" className='hamburger' />
                 <ReactBootstrap.Navbar.Collapse id="basic-navbar-nav">
                     <ReactBootstrap.Nav className="mr-auto">
                     <ReactBootstrap.Nav.Link href="/"><span className = 'inner1'>Home</span></ReactBootstrap.Nav.Link>
