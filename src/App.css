@@ -297,3 +297,13 @@ header {
 .more-btn:hover {
   text-decoration: none;
 }
+@media screen and (max-width : 1024px){
+  .reviews{
+    width : 40%;
+  }
+}
+@media screen and (maxi-width : 540px){
+  .isroo {
+    display: none;
+  }
+}
