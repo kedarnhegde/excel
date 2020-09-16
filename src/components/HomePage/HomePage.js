@@ -24,7 +24,7 @@ class Home extends React.Component {
                         zindex:-2
                     }}
                     >
-                    <source src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fgenerators.mp4?alt=media&token=e3f9d319-36c8-4d27-92f0-59d41a70b31e' type = "video/mp4" />
+                    <source src = 'https://drive.google.com/uc?export=download&id=1eIfWRTZ6uHBjoslaytDk9SiaeuCXedyo' type = "video/mp4" />
                 </video>
                         <div className = 'overlay'>
                             <div className = 'inner'>
@@ -47,50 +47,50 @@ class Home extends React.Component {
                         </div>
                         <div className = 'col-12 col-sm-4 align-self-center'>
                             <Fade top>
-                                <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FRolls-Kino.jpg?alt=media&token=b0a056b9-70da-4b3d-bfe1-6a3c3935b799' alt = 'Rolls-Kino' width = '100%' className="rounded mx-auto d-block"/>
+                                <img src = 'https://drive.google.com/uc?export=download&id=1VXAAjkV6vzzEBFlrA2niAkAWqC46UoZN' alt = 'Rolls-Kino' width = '100%' className="rounded mx-auto d-block"/>
                             </Fade>
                         </div>
                         <div className = 'col-12 col-sm-2 align-self-center'>
                             <Fade bottom>
-                                <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FIEM.png?alt=media&token=691eec58-0c19-4c0d-898d-f9ed4b499167' alt = 'IEM' width = '100%' className="rounded mx-auto d-block"/>
+                                <img src = 'https://drive.google.com/uc?export=download&id=1iAtWvMgzA1diaHnHSsWk2DAqPPQ8jPG6' alt = 'IEM' width = '100%' className="rounded mx-auto d-block"/>
                             </Fade>
                         </div>
                     </div>
                 </div>
                 <div clasName = 'clienoverlay'>
-                <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fclientback.jpg?alt=media&token=2d107087-e144-43e0-807e-8ff4e35ec466' alt = 'clients' zindex = '-2' width='100%' height='100%' className = 'clientimg'/>   
+                <img src = 'https://drive.google.com/uc?export=download&id=1eFtX-eM9jQdzd6gorMiQPa_sx1jofsnL' alt = 'clients' zindex = '-2' width='100%' height='100%' className = 'clientimg'/>   
                         <div className = 'container clients-bg'>
                             <div className = 'row'>
                                 <h1>Our Clients</h1> 
                             </div>
                             <div className = 'row clients'>
                                 <div className = 'col-12 col-sm-4 justify-content-center align-self-center'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fmicrosoft.png?alt=media&token=24a16180-d8bf-48b9-97b8-f9d76efe1818' alt = 'microsoft' width = '100%' className = 'small-clients'></img>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1-fUxWEn68ttix7JBITzPDTt9M7EcSbIg' alt = 'microsoft' width = '100%' className = 'small-clients'></img>
                                 </div>
                                 <div className = 'col-12 col-sm-3 offset-sm-1 rounded mx-auto d-block'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fbosch.png?alt=media&token=a6069bd8-9cf5-4d23-8be1-04e424161d57' alt = 'BOSCH' width = '100%' height = '100%'></img>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1rtgEEeBroIdeYKt7TTj9XbXeo7ANxUrQ' alt = 'BOSCH' width = '100%' height = '100%'></img>
                                 </div>
                                 <div className = 'col-12 col-sm-4 justify-content-center align-self-center mx-auto isroo'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FISRO%20logo.png?alt=media&token=3d907ee3-3af5-4c31-a1ff-5790e6dc293e' alt = 'ISRO' width = '50%' height = '5%'></img>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1NO9BP8ziazGpWxgMEfllB811jg5-admk' alt = 'ISRO' width = '50%' height = '5%'></img>
                                 </div>
                             </div>
                             <div className = 'row clients largeclients'>
                                 <div className = 'col-12 col-sm-3 offset-sm-2'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fhp.png?alt=media&token=4288bdcd-9b5c-47f2-a2e1-2b0f1c8853ae' alt = 'HP' width = '50%' height ='100%'/>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1Y8Y2gTE_EATGV_NJ-qpf4roL57GV6nmg' alt = 'HP' width = '50%' height ='100%'/>
                                 </div>
                                 <div className = 'col-12 col-sm-3 rounded mx-auto d-block'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FLT.png?alt=media&token=220d892b-d032-4eb8-8f54-7b74dbfbb1be' alt = 'LT' width = '70%' height ='100%'/>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1ca-mHsem38Qx7H2J-2z1ZDVUr7VJAkl7' alt = 'LT' width = '70%' height ='100%'/>
                                 </div>
                                 <div className = 'col-12 col-sm-3 rounded mx-auto d-block'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FToyota.png?alt=media&token=4c0b8ee0-8dbd-41b1-bbfe-f8267c3c51a7' alt = 'Toyota' width = '50%' height ='100%'/>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1-Y2RGSYV3svxu_3JKN1sJRHBzPLdyn5k' alt = 'Toyota' width = '50%' height ='100%'/>
                                 </div>
                             </div>
                             <div className = 'row clients'>
                                 <div className = 'col-12 col-sm-4 mt-5 isroo'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FPfizer.png?alt=media&token=e17d7029-e99c-4745-a850-fc9dcf2c1b27' alt = 'pfizer' width = '50%' height = '60%'/>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1MXBGXZQGbfsT62CeumMB4LFCn32eoE9g' alt = 'pfizer' width = '50%' height = '60%'/>
                                 </div>
                                 <div className = 'col-12 col-sm-4 ae'>
-                                    <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2FDRDO%20logo.png?alt=media&token=9458a8a5-0581-448d-a597-d8f613d8225f' alt = 'DRDO' width = '45%' height = '90%'/>
+                                    <img src = 'https://drive.google.com/uc?export=download&id=1cw538x3JtQI33EX0BSCdeInn4T1U1FaR' alt = 'DRDO' width = '45%' height = '90%'/>
                                 </div>
                                 <div className = 'col-sm-4 mt-5 r'>
                                     <span className = 'largeclients justify-self-center align-self-center mx-auto'><button className='btn1 border mt-5 more d-block'><a href = '/installations/' className='more-btn'>More</a></button></span>
@@ -103,17 +103,17 @@ class Home extends React.Component {
                     
                     <ReactBootstrap.Carousel>
                         <ReactBootstrap.CarouselItem>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fenron.svg?alt=media&token=bd794c11-c28f-4d44-943e-c34fbdd1fbc4' alt = 'ENRON' className = 'rounded mx-auto d-block' width = '30%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=1skeFzyFyazUcS5t6ahLLwUsc8xlxLwUx' alt = 'ENRON' className = 'rounded mx-auto d-block' width = '30%'/>
                             <ReactBootstrap.Carousel.Caption><p className = 'carouselcaption'>Criteria used for selecting Excel was their price, their ability to mobilise the necessary resources to meet Enron's aggressive schedule and quality of MTU Germany which is very important for a facility like a Data Centre. Excel Generators Pvt. Ltd. have not only met but exceeded Enron's expectations in all categories. Their machine, workmanship and supervision was of the highest caliber The entire Excel team is very supportive and worked diligently to ensure that all schedules were met without comprimising on quality.<br></br>
                             <b className = 'clientnames'>C. Todd - Project Director, Broadband Solutions (Enron Company)</b></p></ReactBootstrap.Carousel.Caption>
                         </ReactBootstrap.CarouselItem>
                         <ReactBootstrap.CarouselItem>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fcarousel2.svg?alt=media&token=f7161b0c-dc50-4a0b-ad21-115bf0f7801f' alt = 'ETLISL' className = 'rounded mx-auto d-block' width = '30%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=11Rmhl8uTWV6Z5oRXC2nnNF5qeNvhtBxo' alt = 'ETLISL' className = 'rounded mx-auto d-block' width = '30%'/>
                             <ReactBootstrap.Carousel.Caption>Excel Generators Pvt Ltd., Bangalore is directly associated with us for maintenance of our above mentioned DG sets from April 2009. We are satisfied with their, upkeep and maintenance of the DG sets, quality of service and responsiveness to our calls. We wish them good luck and success in their endeavors.<br></br>
                             <b className = 'clientnames'>K Murali - Manager - Planning and Facility Mgt, ETLISL</b></ReactBootstrap.Carousel.Caption>
                         </ReactBootstrap.CarouselItem>
                         <ReactBootstrap.CarouselItem>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fcarousel3.svg?alt=media&token=4b8bd230-116c-4903-9599-3796135490ad' alt = 'ITC' className = 'rounded mx-auto d-block' width = '30%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=1HKwrkzPYBK-RXyyAFlEF6RBkettznt3X' alt = 'ITC' className = 'rounded mx-auto d-block' width = '30%'/>
                             <ReactBootstrap.Carousel.Caption>It gives me immense pleasure and satisfaction to inform you that last month when our 1275 KVA MTU DG set was down due to malfunctioning of MDEC, your company EXCEL Generators Pvt Ltd rose to the occasion and excellent services were rendered, when a service engineer was flown to Mumbai from Bangalore and same day midnight DG set was repaired and put back in operation. I wish all the very best for your company's future and immense growth and thank your team for the prompt and efficient services. I also thank you for the commendable work done during the crisis situation.<br></br>
                             <b className = 'clientnames'>Chief Engineer - ITC Grand Central Sheraton</b></ReactBootstrap.Carousel.Caption>
                         </ReactBootstrap.CarouselItem>
@@ -123,7 +123,7 @@ class Home extends React.Component {
                 <div className = 'small-review'>
                     <div className = 'container'>
                         <div className = 'col-12 mt-5'>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fenron.svg?alt=media&token=bd794c11-c28f-4d44-943e-c34fbdd1fbc4' alt = 'ENRON' className = 'rounded mx-auto d-block' width = '50%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=1skeFzyFyazUcS5t6ahLLwUsc8xlxLwUx' alt = 'ENRON' className = 'rounded mx-auto d-block' width = '50%'/>
                         </div>
                         <div className = 'col-12'><p className = 'carouselcaption'><span className = 'fa fa-quote-left'></span> Criteria used for selecting Excel was their price, their ability to mobilise the necessary resources to meet Enron's aggressive schedule and quality of MTU Germany which is very important for a facility like a Data Centre. Excel Generators Pvt. Ltd. have not only met but exceeded Enron's expectations in all categories. Their machine, workmanship and supervision was of the highest caliber The entire Excel team is very supportive and worked diligently to ensure that all schedules were met without comprimising on quality. <span className = 'fa fa-quote-right'></span><br></br>
                             <b className = 'clientnames'>C. Todd - Project Director, Broadband Solutions (Enron Company)</b></p>
@@ -131,7 +131,7 @@ class Home extends React.Component {
                     </div>
                     <div className = 'container'>
                         <div className = 'col-12 mt-5'>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fcarousel2.svg?alt=media&token=f7161b0c-dc50-4a0b-ad21-115bf0f7801f' alt = 'ETLISL' className = 'rounded mx-auto d-block' width = '30%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=11Rmhl8uTWV6Z5oRXC2nnNF5qeNvhtBxo' alt = 'ETLISL' className = 'rounded mx-auto d-block' width = '30%'/>
                         </div>
                         <div className = 'col-12'><p className = 'carouselcaption'><span className = 'fa fa-quote-left'></span> Excel Generators Pvt Ltd., Bangalore is directly associated with us for maintenance of our above mentioned DG sets from April 2009. We are satisfied with their, upkeep and maintenance of the DG sets, quality of service and responsiveness to our calls. We wish them good luck and success in their endeavors. <span className = 'fa fa-quote-right'></span><br></br>
                             <b className = 'clientnames'>K Murali - Manager - Planning and Facility Mgt, ETLISL</b></p>
@@ -139,7 +139,7 @@ class Home extends React.Component {
                     </div>
                     <div className = 'container'>
                         <div className = 'col-12 mt-5'>
-                            <img src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fhome-page%2Fcarousel3.svg?alt=media&token=4b8bd230-116c-4903-9599-3796135490ad' alt = 'ITC' className = 'rounded mx-auto d-block' width = '30%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1HKwrkzPYBK-RXyyAFlEF6RBkettznt3X/view?usp=sharing' alt = 'ITC' className = 'rounded mx-auto d-block' width = '30%'/>
                         </div>
                         <div className = 'col-12'><p className = 'carouselcaption'><span className = 'fa fa-quote-left'></span> It gives me immense pleasure and satisfaction to inform you that last month when our 1275 KVA MTU DG set was down due to malfunctioning of MDEC, your company EXCEL Generators Pvt Ltd rose to the occasion and excellent services were rendered, when a service engineer was flown to Mumbai from Bangalore and same day midnight DG set was repaired and put back in operation. I wish all the very best for your company's future and immense growth and thank your team for the prompt and efficient services. I also thank you for the commendable work done during the crisis situation. <span className = 'fa fa-quote-right'></span><br></br>
                             <b className = 'clientnames'>Chief Engineer - ITC Grand Central Sheraton</b></p>

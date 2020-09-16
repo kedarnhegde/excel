@@ -26,7 +26,7 @@ class Products extends Component {
                         zindex:-2
                     }}
                     >
-                    <source src = 'https://firebasestorage.googleapis.com/v0/b/excel-b7752.appspot.com/o/media%2Fproducts%2FGeneral%20Icons%20For%20both%20Generator%20Types%2FProducts-Jumbotron.mp4?alt=media&token=d88be2a8-21ea-46df-9d8c-fed9a4dc374d' type = "video/mp4" />
+                    <source src = 'https://drive.google.com/uc?export=download&id=16mUD7d9ktxLrNAaGvP2dM9jiM8uAb8nY' type = "video/mp4" />
                 </video>
                         <div className = 'overlay'>
                             <div className = 'inner'>

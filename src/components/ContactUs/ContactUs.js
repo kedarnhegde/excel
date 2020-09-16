@@ -48,7 +48,7 @@ class Contact extends Component {
                 desc: this.state.desc
             })
             .then(() => {
-                alert('Your details are Submitted! Thank You!');   
+                alert('Your response was Submitted successfully! Thank You!');   
             })
             .catch(error => {
                 alert(error.message);

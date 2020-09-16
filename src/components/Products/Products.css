@@ -65,6 +65,17 @@
         color : white;
     }
 }
+@media screen and (max-width : 585px){
+    .drups-title2 {
+        text-align: center;
+    }
+    .drups-title {
+        text-align: center;
+    }
+    .header {
+        text-align: center;
+    }
+}
 .down-button {
     margin-top: 25px;
     margin-bottom: 25px;
