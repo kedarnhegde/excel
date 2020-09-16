@@ -58,7 +58,7 @@ class Home extends React.Component {
                     </div>
                 </div>
                 <div clasName = 'clienoverlay'>
-                <img src = 'https://drive.google.com/uc?export=download&id=1eFtX-eM9jQdzd6gorMiQPa_sx1jofsnL' alt = 'clients' zindex = '-2' width='100%' height='100%' className = 'clientimg'/>   
+                <img src = 'https://drive.google.com/uc?export=download&id=1eFtX-eM9jQdzd6gorMiQPa_sx1jofsnL' alt = 'clients' zindex = '-2' width='100%' className = 'clientimg'/>   
                         <div className = 'container clients-bg'>
                             <div className = 'row'>
                                 <h1>Our Clients</h1> 
@@ -139,7 +139,7 @@ class Home extends React.Component {
                     </div>
                     <div className = 'container'>
                         <div className = 'col-12 mt-5'>
-                            <img src = 'https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1HKwrkzPYBK-RXyyAFlEF6RBkettznt3X/view?usp=sharing' alt = 'ITC' className = 'rounded mx-auto d-block' width = '30%'/>
+                            <img src = 'https://drive.google.com/uc?export=download&id=1HKwrkzPYBK-RXyyAFlEF6RBkettznt3X' alt = 'ITC' className = 'rounded mx-auto d-block' width = '30%'/>
                         </div>
                         <div className = 'col-12'><p className = 'carouselcaption'><span className = 'fa fa-quote-left'></span> It gives me immense pleasure and satisfaction to inform you that last month when our 1275 KVA MTU DG set was down due to malfunctioning of MDEC, your company EXCEL Generators Pvt Ltd rose to the occasion and excellent services were rendered, when a service engineer was flown to Mumbai from Bangalore and same day midnight DG set was repaired and put back in operation. I wish all the very best for your company's future and immense growth and thank your team for the prompt and efficient services. I also thank you for the commendable work done during the crisis situation. <span className = 'fa fa-quote-right'></span><br></br>
                             <b className = 'clientnames'>Chief Engineer - ITC Grand Central Sheraton</b></p>
