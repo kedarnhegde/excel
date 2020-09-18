@@ -34,7 +34,7 @@ class Products extends Component {
                                 <h1 className = 'title'><centre>Our Products</centre></h1> 
                                 <p>Uninterrupted Power is in our DNA</p>
                                 <a href = '#productA' className='btn'>DRUPS</a>
-                                <a href = '#productB' className='btn ml-3'>Yinlog</a>
+                                <a href = '#productB' className='btn ml-3'>YINLONG</a>
                                 <a href = '#productC' className='btn ml-3'>Vycon</a>
                                 <a href = '#productD' className='btn ml-3'>DG sets</a>
 
