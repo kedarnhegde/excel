@@ -42,7 +42,7 @@ class Home extends React.Component {
                         <div className = 'col-12 col-sm-6 col1'>
                             <Fade top>
                                 <h3 className = 'title2'>We Work With the<br></br> Best Partners</h3>
-                                <p>While we are the forefront of and specialize in design-build, we are very familiar with a number of delivery methods and are confident we can find the process that can help you achieve your goal.</p>
+                                <p>While we are at the forefront of and specialize in design-build, we are very familiar with a number of delivery methods and are confident we can find the process that can help you achieve your goal.</p>
                             </Fade>
                         </div>
                         <div className = 'col-12 col-sm-4 align-self-center'>
@@ -56,11 +56,13 @@ class Home extends React.Component {
                             </Fade>
                         </div>
                     </div>
+                    
                 </div>
-                <div clasName = 'clienoverlay'>
-                <img src = 'https://drive.google.com/uc?export=download&id=1ZUSpRJz5RdseQ1huzKmq64bZSS-Y3Ktr' alt = 'clients' zindex = '-2' width='100%' className = 'clientimg'/>
+                
+                <div className='clienoverlay-full'>
+                    <div clasName = ''>
                         <div className = 'container clients-bg'>
-                            <div className = 'row'>Our Clients</div>
+                            <div className = 'row'> </div>
                             <div className = 'row clients mt-5'>
                                 <div className = 'col-12 col-sm-4 justify-content-center align-self-center'>
                                     <img src = 'https://drive.google.com/uc?export=download&id=1-fUxWEn68ttix7JBITzPDTt9M7EcSbIg' alt = 'microsoft' width = '100%' className = 'small-clients'></img>
@@ -95,6 +97,7 @@ class Home extends React.Component {
                                 </div>
                                 
                             </div>
+                    </div>
                     </div>
                 </div>
                 <div className = 'carousel'>

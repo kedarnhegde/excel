@@ -4,6 +4,7 @@ import ProductA from './ProductA';
 import ProductB from './ProductB';
 import ProductC from './ProductC';
 import ProductD from './ProductD';
+import ProductE from './ProductE';
 
 class Products extends Component {
     render() {
@@ -27,16 +28,17 @@ class Products extends Component {
                         zindex:-2
                     }}
                     >
-                    <source src = 'https://drive.google.com/uc?export=download&id=16mUD7d9ktxLrNAaGvP2dM9jiM8uAb8nY' type = "video/mp4" />
+                    <source src = 'https://drive.google.com/uc?export=download&id=1KzLA59nhNy4zlmQAktbJfcZDhG-FRGin' type = "video/mp4" />
                 </video>
                         <div className = 'overlay'>
                             <div className = 'inner'>
                                 <h1 className = 'title'><centre>Our Products</centre></h1> 
                                 <p>Uninterrupted Power is in our DNA</p>
-                                <a href = '#productA' className='btn'>DRUPS</a>
-                                <a href = '#productB' className='btn ml-3'>YINLONG</a>
-                                <a href = '#productC' className='btn ml-3'>Vycon</a>
-                                <a href = '#productD' className='btn ml-3'>DG sets</a>
+                                <a href = '#productA' className='btn ml-sm-3'>DRUPS</a>  
+                                <a href = '#productB' className='btn ml-3'>Fuel Cells</a>
+                                <a href = '#productC' className='btn ml-3'>LTO Battery</a>
+                                <a href = '#productD' className='btn ml-3'>FESS</a>
+                                <a href = '#productE' className='btn ml-3'>DG sets</a>
 
                             </div>
                         </div>                
@@ -56,6 +58,9 @@ class Products extends Component {
                 </div>
                 <div id = 'productD'>
                     <ProductD />
+                </div>
+                <div id = 'productE'>
+                    <ProductE />
                 </div>
             </div>
         );

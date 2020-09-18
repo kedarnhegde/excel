@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import ReactPlayer from 'react-player';
 import './Products.css';
 import Fade from 'react-reveal/Fade';
 import {Button} from 'reactstrap';
@@ -13,34 +12,70 @@ class ProductC extends Component {
                         <div className = 'row header'>
                             <div className = 'col-12 col-sm-6 align-self-center justify-content-center'>
                                 <Fade top>
-                                    <h1 className ='drups-title'>Flywheel Energy Storage System(FESS) VYCON</h1>
-                                    <Button className='down-button'><a className='down-link' href='https://drive.google.com/uc?export=download&id=1fWQjWLPq7JUSmIe4NXJ__Gcickrw9Rno' target='blank'>Download Brochure <span className='fa fa-download'></span></a></Button>
-                                    <p>The VYCON Direct Connect (VDC) system stores kinetic energy in the form of a rotating mass and is designed for high power, short discharge applications. The patented technology within the VDC system includes a high-speed motor generator, active magnetic bearings that are used to levitate and sustain the rotor during operation, and a superior control system that can provide information on the system performance. These innovative technologies enable the VDC to charge and discharge at high rates for countless cycles making conventional technologies like batteries obsolete.</p>
+                                    <h1 className ='drups-title'>YINLONG LTO Power Battery</h1>
+                                    <Button className='down-button'><a className='down-link' href='https://drive.google.com/uc?export=download&id=1_svvNbz3S0ATm_q2eHNTdvR5t9JlwfYq' target='blank'>Download Brochure <span className='fa fa-download'></span></a></Button>
+                                    <p>Yinlong's LTO battery, with the characters of, fast charge in 6mins, wide temperature range ( -50℃ ~ 60℃ ), 30 years service life, no fire, no explosion, high security, and high efficiency, etc., has gained the popularity from global famous partners such as AES, INE, BOMBARDIER, Vestas, Ford, PRO TERRA, Amberjack Projects, BAE SYSTEMS, State Grid Corporation of China, China Southern Power Grid, CRRC, Shenhua Group, China Tower, etc. LTO battery has been widely used in new energy vehicles and energy.</p>
                                 </Fade>
                             </div>
                             <div className = 'col-12 col-sm-6 mx-auto justify-content-center align-self-center drups-1'>
                                 <Fade bottom>
-                                    <img src = "https://drive.google.com/uc?export=download&id=1F_Hx68YCe63Y1VTtH0-jYlzwVTorhqMN" alt = 'generator' width = "100%" height = "100%"/>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1LTAPEBkvTxeksiRyZY8HuRYd7__W36En" alt = 'generator' width = "100%" height = "100%"/>
                                 </Fade>
                             </div>
-                            <div className = 'col-12 col-sm-6 align-self-center justify-content-center drups-2'>
-                                <Fade top><h1 className ='drups-title2'>What is FESS and how does it work?</h1>
-                                <p>In case of a power outage, the kinetic energy accumulated in the outer rotor or accu-rotor supplies the load until the diesel engine is running at its rated speed. Within seconds the diesel engine becomes the source of power and this is how your critical loads are always fully secured. All this happens, without the slightest interruption or aberration to the load. The Kinetic Energy Accumulator At the heart of the NO-BREAK KS is its kinetic energy accumulator: a clever but simple system to store and retrieve kinetic energy. It consists of two rotating parts: the outer rotor runs mechanically-free around the inner rotor. The inner rotor, driven by the main shaft, rotates at 1500 rpm (50 Hz) or 1800 rpm (60 Hz). It contains two sets of windings; a three-phase AC winding and a DC winding.</p>
-                                </Fade>
+                        </div>  
+                    </div>
+                    <div className = 'row mt-5 features'>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center mx-auto f1'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1S5e7xt0Ht8USpwd-8BK8WUItdyR_gbEV" alt = 'feature' width = '50%' height = "50%"/>
+                                    <p>Communication</p>
+                                </div>
                             </div>
-                            <div className = 'col-12 col-sm-6 mx-auto justify-content-center align-self-center'>
-                                <Fade bottom>
-                                    <img src = "https://drive.google.com/uc?export=download&id=1qJbYNZfRLC_HlEJJ60dis3lnVdPJJLqR" alt = 'working' width = "100%" height = "100%"/>
-                                </Fade>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1qcKcMRb0uXatLO2kTF1L7bAyTU9BMuQ0" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Industry</p>
+                                </div>
+                            </div>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1Zs4FKVbeK10F_GxalaYsm48L3dG7dUm4" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Transportation</p>
+                                </div>
+                            </div>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className ='foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=10N5nRk2fjforc-PkXvnkZtMox75GdIuH" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Military Industry</p>
+                                </div>
                             </div>
                         </div>
-                        <div className='row'>
-                            <div className='col-12'>
-                                <p className='drups-working'>Working of FESS Units</p>
-                                <ReactPlayer className='drups-video' playing={true} width = '100%' height = '70%' muted controls url='https://drive.google.com/uc?export=download&id=1HMGwfLBYVJY7_SNw6gdMQh3SYYUHbs3t'/>
+                        <div className = 'row features'>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=165Aobk8_lbHOi0CzVfxVx_kj6M5k__Km" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Power Grid</p>
+                                </div>
                             </div>
-                        </div>    
-                    </div>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1-kcDf0ugDkujqqnO6wkDaVwdiUkT7wl0" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Construction</p>
+                                </div>
+                            </div>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=12o1CZkl9wzT32pgL8QdWZZogwZMBOcPC" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Storage and Logistics</p>
+                                </div>
+                            </div>
+                            <div className = 'col-12 col-sm-3 justify-content-center align-self-center'>
+                                <div className = 'foverlay'>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1T4Zx-UlS_cFSEEQ01Xc9-7sK0qkV5e4B" alt = 'feature' width = '50%' height = "50%" />
+                                    <p>Household</p>
+                                </div>
+                            </div>
+                        </div>
                     <hr className='break-line'/>
                 </div>
             </div>
