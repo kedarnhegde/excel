@@ -3,6 +3,7 @@ import './Products.css';
 import ProductA from './ProductA';
 import ProductB from './ProductB';
 import ProductC from './ProductC';
+import ProductD from './ProductD';
 
 class Products extends Component {
     render() {
@@ -32,15 +33,16 @@ class Products extends Component {
                             <div className = 'inner'>
                                 <h1 className = 'title'><centre>Our Products</centre></h1> 
                                 <p>Uninterrupted Power is in our DNA</p>
-                                <a href = '#productA' className='btn'>RBT UPS</a>
-                                <a href = '#productB' className='btn ml-4'>DRUPS</a>
-                                <a href = '#productC' className='btn ml-4'>DG sets</a>
+                                <a href = '#productA' className='btn'>DRUPS</a>
+                                <a href = '#productB' className='btn ml-3'>Yinlog</a>
+                                <a href = '#productC' className='btn ml-3'>Vycon</a>
+                                <a href = '#productD' className='btn ml-3'>DG sets</a>
 
                             </div>
                         </div>                
                     </header>
 
-                </div>
+            </div>
                 <div id = 'productA'>
                     <ProductA/>
                 </div>
@@ -51,6 +53,9 @@ class Products extends Component {
                 
                 <div id = 'productC'>
                     <ProductC />
+                </div>
+                <div id = 'productD'>
+                    <ProductD />
                 </div>
             </div>
         );

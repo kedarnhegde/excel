@@ -302,8 +302,3 @@ header {
     width : 40%;
   }
 }
-@media screen and (maxi-width : 540px){
-  .isroo {
-    display: none;
-  }
-}

@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
-import ReactPlayer from 'react-player';
 import './Products.css';
 import Fade from 'react-reveal/Fade';
-import {Button} from 'reactstrap';
 
-class ProductA extends Component {
+class ProductD extends Component {
     render() {
         return(
             <div className = 'main'>
@@ -12,32 +10,14 @@ class ProductA extends Component {
                     <div className = 'rowheader2'>
                         <div className = 'row header'>
                             <div className = 'col-12 col-sm-6 align-self-center justify-content-center'>
-                                <Fade top><h1 className ='drups-title'>Diesel Rotary Uninterruptible Power Supply (DRUPS)</h1>
-                                <Button className='down-button'><a className='down-link' href='https://drive.google.com/uc?export=download&id=1ftMKZUsfgKF7tVMqpr79dcg3EN5FmyCi' target='blank'>Download Brochure <span className='fa fa-download'></span></a></Button>
-                                <p>Diesel Rotary UPS (no-break KS) has been in market since 1989 and provides uninterruptible power supply system used to secure and protect the critical equipments from the mains / grid failure. Manufactured and tested in modern facilities, this provides multiple benefits such as No AC requirement, No power electronics, No need for battery banks, take care of harmonics generation, compact size, high reliability, small footprint, user friendly, easy maintenance and reduced voltage distortions.</p>
+                                <Fade top><h1 className ='title2'>Diesel Generator Sets (DG SETS)</h1>
+                                <p>Excel Generators can give you DG sets comes with Leroy Somers / Stanford / Marathon alternators for 415V LT and TDPS / AVK / Leroy Somers in 6.6 / 11 kV HT in single and mutiple systems. Operating range offer lies in between 750 kVA to 3000 kVA. We provide a design solution from vertical radiators to horizontal radiators, from indoor to outdoor installations with proper design of ventilation systems for efficient performance of DG sets with adequate fuel line design and exhaust line to take care of back pressure for a efficient operation.</p>
                                 <p>(DG sets are available in 415 V, 6.6 kV, 11 kV)</p></Fade>
-                            </div>
-                            <div className = 'col-12 col-sm-6 mx-auto justify-content-center align-self-center drups-1'>
-                                <Fade bottom>
-                                    <img src = "https://drive.google.com/uc?export=download&id=1HDNWHRzLydLRStMd1iwluv1u02R-JWih" alt = 'generator' width = "100%" height = "100%"/>
-                                </Fade>
-                            </div>
-                            <div className = 'col-12 col-sm-6 align-self-center justify-content-center drups-2'>
-                                <Fade top><h1 className ='drups-title2'>What is DRUPS and how does it work?</h1>
-                                <p>In case of a power outage, the kinetic energy accumulated in the outer rotor or accu-rotor) supplies the load until the diesel engine is running at its rated speed. Within seconds the diesel engine becomes the source of power and this is how your critical loads are always fully secured. All this happens, without the slightest interruption or aberration to the load. The Kinetic Energy Accumulator At the heart of the NO-BREAK KS is its kinetic energy accumulator: a clever but simple system to store and retrieve kinetic energy. It consists of two rotating parts: the outer rotor runs mechanically-free around the inner rotor. The inner rotor, driven by the main shaft, rotates at 1500 rpm (50 Hz) or 1800 rpm (60 Hz). It contains two sets of windings; a three-phase AC winding and a DC winding.</p>
-                                </Fade>
                             </div>
                             <div className = 'col-12 col-sm-6 mx-auto justify-content-center align-self-center'>
                                 <Fade bottom>
-                                    <img src = "https://drive.google.com/uc?export=download&id=1qSkZMaeK6sY-LIln8e7ydJgglyfCqq2A" alt = 'graph' width = "100%" height = "100%"/>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1RaxYlDzCk-KdJLe7JM0m-1WKX0QFHCS3" alt = 'generator' width = "100%" height = "100%"/>
                                 </Fade>
-                            </div>
-                        </div>
-
-                        <div className='row'>
-                            <div className='col-12'>
-                                <p className='drups-working'>Working of DRUPS Units</p>
-                                <ReactPlayer className='drups-video' playing={true} width = '100%' height = '70%' controls url='https://drive.google.com/uc?export=download&id=1KOfvt9gXfLpIxpHv2qHz8i3S0gF3LpY0'/>
                             </div>
                         </div>
                         <div className = 'row mt-5 features'>
@@ -92,13 +72,12 @@ class ProductA extends Component {
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    <hr className='break-line'/>
+
                 </div>
             </div>
         );
     }
 }
 
-export default ProductA;
+export default ProductD;
