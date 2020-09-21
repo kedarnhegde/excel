@@ -26,7 +26,7 @@ body::-webkit-scrollbar-thumb{
   height : 9%;
   top : 0;
   z-index: 1;
-  background-color: rgba(0, 0, 59, 0.8);
+  background-color: rgba(1, 1, 126, 0.8);
   justify-content: center;
   
 }
@@ -251,7 +251,7 @@ header {
   }
   .small-review {
     display: inline-block;
-    background: linear-gradient(90deg, rgb(0, 0, 148), rgb(0, 0, 59));
+    background: linear-gradient(0deg,rgb(11, 12, 75), rgb(21, 23, 117) );
   }
 }
 .partnerimg_small{
@@ -271,10 +271,10 @@ header {
   }
 }
 .carousel { 
-  background: linear-gradient(90deg, rgb(0, 0, 150), rgb(0, 0, 59));
+  background: linear-gradient(0deg,rgb(11, 12, 75), rgb(21, 23, 117) );
 }
 .clienoverlay-full {
-  background: linear-gradient(90deg, rgb(0, 0, 200), rgb(0, 0, 59));
+  background: linear-gradient(0deg,rgb(21, 23, 117), rgb(45, 45, 245) );
 }
 
 .carouselcaption {

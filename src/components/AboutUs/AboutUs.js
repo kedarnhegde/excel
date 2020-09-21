@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import './AboutUs.css'
 import { Card, Accordion } from 'react-bootstrap';
+import Fade from 'react-reveal/Fade';
+
 
 class About extends Component {
 
@@ -42,7 +44,7 @@ changeit3() {
               <div className="col-12 col-sm-6">
                   <h3 className='head2'>Our History</h3>
                   <p className='about-content'>
-                  Excel Generators was established in 1996 in Bangalore and has done more than 500 installations all over India of DG Sets till date with satisfied clientele such as all major Indian airports, ITC Hotels, CTS, TATA BP Solar, JNCASR, L&T ECC, Hi-Tech City Hyd, ICICI Bank, Microsoft, Robert Bosch, IIT Research Park, etc. We also entered the field of DRUPS in 2013 and have a clientele of Toyota Kirloskar, Hewlett Packard(hp), ISRO, LRDE, Pfizer, etc.
+                  <Fade top>Excel Generators was established in 1996 in Bangalore and has done more than 500 installations all over India of DG Sets till date with satisfied clientele such as all major Indian airports, ITC Hotels, CTS, TATA BP Solar, JNCASR, L&T ECC, Hi-Tech City Hyd, ICICI Bank, Microsoft, Robert Bosch, IIT Research Park, etc. We also entered the field of DRUPS in 2013 and have a clientele of Toyota Kirloskar, Hewlett Packard(hp), ISRO, LRDE, Pfizer, etc.</Fade>
                   </p>
               </div>
               <div className='col-12 col-sm-6'>
