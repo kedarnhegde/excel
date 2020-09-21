@@ -84,7 +84,7 @@ changeit3() {
                           <div className='accord-body'>
                               <Card.Body>
                               <p>He says</p>
-                              <p>"We Team Excel always work towards the Progress to provide Quality & Uninterrupted Power at all times."</p>
+                              <p>"We Team Excel always work towards the Progress to provide Quality, Clean, Reliable Uninterrupted Power at all times."</p>
                               </Card.Body>
                           </div>
                           </Accordion.Collapse>

@@ -15,7 +15,7 @@ class ProductA extends Component {
                                 <Fade top><h1 className ='drups-title'>Diesel Rotary Uninterruptible Power Supply (DRUPS)</h1>
                                 <Button className='down-button'><a className='down-link' href='https://drive.google.com/uc?export=download&id=1ftMKZUsfgKF7tVMqpr79dcg3EN5FmyCi' target='blank'>Download Brochure <span className='fa fa-download'></span></a></Button>
                                 <p>Diesel Rotary UPS (no-break KS) has been in the market since 1989 and provides an uninterruptible power supply system used to secure and protect the critical equipment from the mains/grid failure. It is such a simple piece of equipment that one might think of it as a conventional generator-set. It is made up of a diesel engine that is coupled to a kinetic energy accu, via an electromagnetic clutch. The kinetic energy accu is the combination of a kinetic energy accu and a synchronous machine.</p>
-                                <p>(DG sets are available in 415 V, 6.6 kV, 11 kV)</p></Fade>
+                                </Fade>
                             </div>
                             <div className = 'col-12 col-sm-6 mx-auto justify-content-center align-self-center drups-1'>
                                 <Fade bottom>

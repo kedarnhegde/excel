@@ -20,7 +20,7 @@ class ProductB extends Component {
                             </div>
                             <div className = 'col-12 col-sm-6 mx-auto justify-content-center align-self-center drups-1'>
                                 <Fade bottom>
-                                    <img src = "https://drive.google.com/uc?export=download&id=1e99XpNiyqL5nMAcEuCeqAYSJB8wp_PeP" alt = 'generator' width = "100%" height = "100%"/>
+                                    <img src = "https://drive.google.com/uc?export=download&id=1LF_Dc1FnNXygLAtWyl2jv_yyXmR38ci1" alt = 'generator' width = "100%" height = "100%"/>
                                 </Fade>
                             </div>
                             <div className = 'col-12 col-sm-6 align-self-center justify-content-center drups-2'>
