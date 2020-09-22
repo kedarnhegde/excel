@@ -45,24 +45,9 @@ class Home extends React.Component {
                                 <p>While we are at the forefront of and specialize in design-build, we are very familiar with a number of delivery methods and are confident we can find the process that can help you achieve your goal.</p>
                             </Fade>
                         </div>
-                        <div className = 'col-12 col-sm-2 align-self-center'>
-                            <Fade top>
-                                <img src = 'https://drive.google.com/uc?export=download&id=1VXAAjkV6vzzEBFlrA2niAkAWqC46UoZN' alt = 'Rolls-Kino' width = '100%' className="rounded mx-auto d-block"/>
-                            </Fade>
-                        </div>
-                        <div className = 'col-12 col-sm-1 align-self-center'>
+                        <div className = 'col-12 col-sm-6 align-self-center'>
                             <Fade bottom>
-                                <img src = 'https://drive.google.com/uc?export=download&id=1YEvzm71eKJXXQN7yrZePXWT01e7lntAW' alt = 'Yinlong' width = '100%' className="rounded mx-auto d-block"/>
-                            </Fade>
-                        </div>
-                        <div className = 'col-12 col-sm-2 align-self-center'>
-                            <Fade top>
-                                <img src = 'https://drive.google.com/uc?export=download&id=1vXs0AoOsAEDUYgihxLkR4INjZP3LXokN' alt = 'Vycon' width = '100%' className="rounded mx-auto d-block"/>
-                            </Fade>
-                        </div>
-                        <div className = 'col-12 col-sm-1 align-self-center'>
-                            <Fade bottom>
-                                <img src = 'https://drive.google.com/uc?export=download&id=19HLYGvYsYS5z1VMy7oEEOARu2sW4_haS' alt = 'Bloom' width = '100%' className="rounded mx-auto d-block"/>
+                                <img src = 'https://drive.google.com/uc?export=download&id=1-4DLkocmcQJweEw9fe9JaxXe7n0_4Prw' alt = 'Partners' width = '100%' className="rounded mx-auto d-block"/>
                             </Fade>
                         </div>
             </div>
