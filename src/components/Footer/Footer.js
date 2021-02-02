@@ -46,7 +46,7 @@ class Footer extends Component {
                     <hr className='hr-footer-line' />
                     <div className='row'>
                         <div className='col-12'>
-                            <h5 className='copyright'>Copyright &#169; 2020 Excel Generators Pvt. Ltd. All Rights Reserved.</h5>
+                            <h5 className='copyright'>Copyright &#169; 2021 Excel Generators Pvt. Ltd. All Rights Reserved.</h5>
                         </div>
                     </div>
                 </div>
